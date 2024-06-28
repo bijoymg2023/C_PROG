@@ -10,8 +10,6 @@ int main(int argc, char **argv){
     struct dirent *dptr;
     printf("\n DIRECTERY CONTENTS");
     dirp=opendir(".");
-    //printf("Enter directory name");
-    //dirp=opendir(argv[1]);
     if(dirp==NULL){
         printf("\nDIRECTORY DOESNT EXIST");
         exit(0);
