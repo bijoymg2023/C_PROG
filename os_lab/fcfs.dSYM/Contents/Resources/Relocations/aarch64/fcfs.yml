@@ -1,9 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/bijoymathewgeorge/Documents/C_PROG/os_lab/fcfs'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038B8, symSize: 0x664 }
-  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _p, symBinAddr: 0x100008018, symSize: 0x0 }
-  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _k, symBinAddr: 0x100008000, symSize: 0x0 }
-  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038B8, symSize: 0x664 }
-...

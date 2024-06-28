@@ -2,11 +2,12 @@
 //ghant chart problem
 
 #include<stdio.h>
+
 struct process{
     int pid,at,bt,ct,tat,wt;
 }p[100],k;
 
-int main(){
+void main(){
     int n,i,j,sum=0,t_tat=0,t_wt=0,c;
     printf("Enter No of Processes:");
     scanf("%d",&n);
@@ -89,5 +90,4 @@ int main(){
     for(i=0;i<n;i++){
         printf("    %d",p[i].ct);
     }
-return 0;
 }
