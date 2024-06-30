@@ -1,4 +1,4 @@
-echo "ENTER FIBONACCI LIMIT"
+echo "ENTER FIBO LIMIT"
 read n
 var=2
 a=0
