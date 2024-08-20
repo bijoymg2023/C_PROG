@@ -26,7 +26,6 @@ if(p[i].at>p[i+1].at)
 temp=p[i].id;
 p[i].id=p[i+1].id;
 p[i+1].id=temp; 
-
 temp=p[i].at;
 p[i].at=p[i+1].at;
 p[i+1].at=temp;
@@ -100,4 +99,6 @@ for(i=0;i<n;i++){
 printf(" \t%d ",p[i].ct );
 }
 printf("\n");
-}}
+}
+return 0;
+}
