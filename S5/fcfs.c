@@ -99,6 +99,4 @@ for(i=0;i<n;i++){
 printf(" \t%d ",p[i].ct );
 }
 printf("\n");
-}
-return 0;
-}
+}}
